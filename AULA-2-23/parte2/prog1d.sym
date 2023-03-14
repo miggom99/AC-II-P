@@ -1,0 +1,22 @@
+GAS LISTING prog1d.s 			page 1
+
+
+DEFINED SYMBOLS
+            prog1d.s:9      *ABS*:0000000000000006 PRINT_INT
+            prog1d.s:10     *ABS*:0000000000000003 PUT_CHAR
+            prog1d.s:11     *ABS*:000000000000000b READ_CORE_TIMER
+            prog1d.s:12     *ABS*:000000000000000c RESET_CORE_TIMER
+            prog1d.s:13     *ABS*:0000000000000001 IN_KEY
+            prog1d.s:18     .text:0000000000000000 main
+            prog1d.s:30     .text:0000000000000028 while
+            prog1d.s:104    .text:0000000000000138 delay
+            prog1d.s:64     .text:000000000000008c ifputS
+            prog1d.s:75     .text:00000000000000bc if2x
+            prog1d.s:68     .text:00000000000000a0 whileput
+            prog1d.s:80     .text:00000000000000dc endif2x
+            prog1d.s:83     .text:00000000000000e0 if
+            prog1d.s:87     .text:00000000000000f8 if2
+            prog1d.s:107    .text:0000000000000140 whiledelay
+            prog1d.s:116    .text:0000000000000168 enddelay
+
+NO UNDEFINED SYMBOLS

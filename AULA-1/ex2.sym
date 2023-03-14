@@ -1,0 +1,9 @@
+GAS LISTING ex2.s 			page 1
+
+
+DEFINED SYMBOLS
+               ex2.s:6      *ABS*:0000000000000008 PRINT_STR
+               ex2.s:9      .data:0000000000000000 msg
+               ex2.s:12     .text:0000000000000000 main
+
+NO UNDEFINED SYMBOLS

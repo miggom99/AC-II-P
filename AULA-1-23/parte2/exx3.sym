@@ -1,0 +1,14 @@
+GAS LISTING exx3.s 			page 1
+
+
+DEFINED SYMBOLS
+              exx3.s:5      .data:0000000000000000 str1
+              exx3.s:6      .data:000000000000002a str2
+              exx3.s:7      .data:0000000000000047 str3
+              exx3.s:8      .data:000000000000005a str4
+              exx3.s:9      .data:000000000000006e str5
+              exx3.s:10     .data:000000000000008d str6
+              exx3.s:16     .text:0000000000000000 main
+              exx3.s:17     .text:0000000000000000 while
+
+NO UNDEFINED SYMBOLS

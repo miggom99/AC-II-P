@@ -1,0 +1,14 @@
+GAS LISTING 1c.s 			page 1
+
+
+DEFINED SYMBOLS
+                1c.s:2      .data:0000000000000000 str0
+                1c.s:3      .data:000000000000002a str1
+                1c.s:4      .data:0000000000000047 str2
+                1c.s:5      .data:000000000000005a str3
+                1c.s:6      .data:000000000000006e str4
+                1c.s:7      .data:000000000000008d str5
+                1c.s:12     .text:0000000000000000 main
+                1c.s:68     .text:00000000000000d0 end
+
+NO UNDEFINED SYMBOLS

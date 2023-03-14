@@ -1,0 +1,12 @@
+GAS LISTING 1b.s 			page 1
+
+
+DEFINED SYMBOLS
+                1b.s:6      .text:0000000000000000 main
+                1b.s:8      .text:0000000000000004 do
+                1b.s:15     .text:000000000000001c if
+                1b.s:21     .text:0000000000000038 else
+                1b.s:25     .text:0000000000000044 while
+                1b.s:28     .text:0000000000000058 enddo
+
+NO UNDEFINED SYMBOLS
