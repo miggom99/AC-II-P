@@ -30,13 +30,11 @@ int main(void){
     // configuration sequence 
 
     //config A/D
-    LATB = LATB & 0x80FE;
-    LATE = LATE & 0xFF00;
+    LATB = LATB & 0x80FF;
     LATD = LATD & 0xFF9F;
 
-    TRISB = (TRISB & 0x80FF) | 0x0001;
-    TRISE = TRISE & 0xFF00;
-    TRISD = TRISD & 0xFF9F;
+    TRISB = (TRISB & 0x80FF) | 0xF; 
+    TRISD = TRISD & 0xFF9F; 
 
     //configure interrupt
     IPC6bits.AD1IP = 2; // configure priority of A/D interrupts
@@ -65,13 +63,14 @@ int main(void){
  {
  // Read conversion result (ADC1BUF0) and print it
     int i, media = 0;
-    int *p = (int)(&ADC1BUF0);
-    for(i = 0; i++; i<8){
-        media = p[i*4];
+    int *p = (int *)(&ADC1BUF0);
+    for(i = 0;i<8; i++){
+        media += p[i*4];
     }
-    voltage = media/8;
-    // Start A/D conversion
-    AD1CON1bits.ASAM = 1; 
+    media = media/8;
+    voltage = (media * 33 +511) / 1023;
+    printInt(voltage,10);
+
 
     IFS1bits.AD1IF = 0; // Reset AD1IF flag
  } 
